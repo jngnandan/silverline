@@ -1,24 +1,197 @@
+
+.background{
+  background-color: black;
+  height: 100vh;
+  background-size: cover;
+}
+.only-helvetica{
+  font-family: helvetica;
+}
+
+h1{
+  font-family: Helvetica-light;
+  color: white;
+}
+p{
+  color: white;
+}
+.georgia{
+  font-family: Georgia-Regular;
+}
+.helvica{
+  font-family: Helvetica-light;
+}
+
 .bg-container {
   height: 100vh;
   background-size: cover;
   font-family: Roboto;
 }
+.nav-color{
+  background-color: black !important;
+}
+
+.content-better-experience{
+  width: 30em;
+}
+
+.heading{
+  font-size: 40px;
+}
+
+
 
 .header {
-  background-image: url("http://unsplash.it/1200/400?blur&gravity=center");
+  background-image: url('/images/header.png');
   background-size: cover;
-  height: 400px;
+  height: 25em;
+  width: 100vw;
 }
+.footertop{
+  background-image: url('/images/footertop@3x.png');
+  background-size: cover;
+  height: 25em;
+  width: 120vw;
+
+}
+
+
+.header-button{
+  width: 140px;
+  height: 40px;
+  border-style: solid;
+  border-color: white;
+  border-radius: 1px;
+  border-width: 2px;
+  background: none;
+}
+
 .box {
-  background-image: url("http://unsplash.it/200/250?random&blur&gravity=center");
-  background-size: cover;
-  width: 7em;
+  width: 10em;
+  height: 12em;
+  border-style: solid;
+  border-width: 0.5px;
+  border-color: grey;
 }
+.box2 {
+  width: 8em;
+  height: 8em;
+}
+
+
+.img{
+  width: 60px;
+  width: 60px;
+}
+
+.border-left-none{
+  border-left: none;
+}
+.border-right-none{
+  border-right: none;
+}
+.border-top-none{
+  border-top: none;
+}
+.border-bottom-none{
+  border-bottom: none;
+}
+
+
+.Rectangle-button{
+  width: 140px;
+  height: 36px;
+  flex-grow: 0;
+  border-radius: 40px;
+  border: solid 1.5px #ffffff;
+  background: none;
+  font-family: helvetica-light;
+  font-size: 14px;
+}
+.font-14{
+  font-size: 14px;
+}
+
+/* .gallery-top{
+  width: 50em;
+} */
+.cover-img-1{
+  background-image: url('/images/blur-london@3x.png');
+  background-size: cover;
+  height: 20.5em;
+  width: 15em;
+}
+.cover-img-2{
+  background-image: url('/images/rec-top-london-topview@3x.png');
+  background-size: cover;
+  width: 30.5em;
+  height: 10em;
+}
+.cover-img-3{
+  background-image: url('/images/london-bridge@3x.png');
+  background-size: cover;
+  width: 15em;
+  height: 10em;
+}
+.cover-img-4{
+  background-image: url('/images/london-call@3x.png');
+  background-size: cover;
+  width: 15em;
+  height: 10em;
+}
+.cover-img-5{
+  background-image: url('/images/london-underground@3x.png');
+  background-size: cover;
+  width: 23em;
+  height: 10em;
+}
+.cover-img-6{
+  background-image: url('/images/london-architecture@3x.png');
+  background-size: cover;
+  width: 23em;
+  height: 10em;
+}
+
+.box3{
+  height: 5.5em;
+  border-style: solid;
+  border-width: 1px;
+  border-color: white;
+  border-radius: 2px;
+
+}
+
+.box-title{
+  font-size: 0.6em;
+
+}
+.box-text{
+  font-size: 0.5px;
+
+}
+
+
+.title{
+  font-size: 13px;
+}
+
+.profilePic{
+  width: 11em;
+  height: 11em;
+}
+.icon-size{
+  width: 50px !important;
+  height: 50px !important;
+}
+
+
+
+
 
 .recimg {
   background-image: url("http://unsplash.it/200/250?random&blur&gravity=center");
   background-size: cover;
-  width: 10em;
+  width: 20em;
   height: 18em;
 }
 
